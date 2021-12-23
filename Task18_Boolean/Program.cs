@@ -19,7 +19,7 @@ bool Statement2 (bool Х, bool Y)
     bool result2 = !X & !Y;
     return result2;
  }
-   //bool S1 = Statement1(X,Y)
+   
 if (Statement1(X,Y) == Statement2(X,Y))
-Console.WriteLine ("Высказывание истинно"); 
+   Console.WriteLine ("Высказывание истинно"); 
 
