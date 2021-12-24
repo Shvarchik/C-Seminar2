@@ -32,12 +32,10 @@ for (Xindex=0; Xindex <=1; Xindex++)
                     }    
             }
     }
-bool FinalCheck = Check[0] & Check[1] & Check[2] & Check[3];
-if (FinalCheck == true)
-    {
-        Console.WriteLine ("Высказывание верно");
-    }
-else 
-    {
-        Console.WriteLine ("Высказывание ложно");
-    }    
+//bool FinalCheck = Check[0] & Check[1] & Check[2] & Check[3];
+//if (FinalCheck == true)
+if (Check[0] & Check[1] & Check[2] & Check[3])
+            Console.WriteLine ("Высказывание верно");
+    else 
+            Console.WriteLine ("Высказывание ложно");
+        
