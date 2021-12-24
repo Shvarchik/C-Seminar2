@@ -22,4 +22,8 @@ bool Statement2 (bool Х, bool Y)
    
 if (Statement1(X,Y) == Statement2(X,Y))
    Console.WriteLine ("Высказывание истинно"); 
+else 
+   Console.WriteLine ("Высказывание ложно");
+
+   
 
