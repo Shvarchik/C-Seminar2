@@ -9,7 +9,7 @@ Console.Write("Введите значение Y: ");
 string y = Console.ReadLine();
 bool Y = Boolean.Parse(y);
 
-if ((!(X|Y)) == (!X & !Y))
-   Console.WriteLine ("Высказывание истинно"); 
-else 
-   Console.WriteLine ("Высказывание ложно");
+if ((!(X | Y)) == (!X & !Y))
+    Console.WriteLine("Высказывание истинно");
+else
+    Console.WriteLine("Высказывание ложно");
