@@ -1,14 +1,14 @@
-﻿// Проверить истинность ¬(A ⋁ Y) = ¬A ⋀ ¬Y
+﻿// Проверить истинность ¬(X ⋁ Y) = ¬X ⋀ ¬Y
 // Замороченный вариант, с массивами и циклами
 
-bool Statement1 (bool A, bool Y)
+bool Statement1 (bool X, bool Y)
  {
-    bool result1 = !(A|Y);
+    bool result1 = !(X|Y);
     return result1;
  }
-bool Statement2 (bool A, bool Y)
+bool Statement2 (bool X, bool Y)
  {
-    bool result2 = !A & !Y;
+    bool result2 = !X & !Y;
     return result2;
  }
 
